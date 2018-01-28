@@ -37,4 +37,9 @@ print(parsed_sentences)
 ```
 The output is `['Hello, my name is Geronimo.', "What's yours?", 'Here is a cool picture:', "Now, isn't that nice?", "Here's a weird sentence with lots of inline tags."]`.
 
-
+## Installation:
+HTMLST is available on [pip](https://pypi.python.org/pypi/htmlst/0.1.0b1).
+To install, enter the following into terminal:
+```
+pip install htmlst
+```
