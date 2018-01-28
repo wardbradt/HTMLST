@@ -1,7 +1,7 @@
-# HTMLSentenceTokenizer (HST)
+# HTMLSentenceTokenizer (HTMLST)
 An API which extracts sentences from HTML
 
-HST breaks down HTML documents into paragraph-like sections by taking into account the [HTML5 Specification](https://html.spec.whatwg.org/multipage/) and web developers' typical usage of HTML tags and tokenizes the sentences in these sections using [NLTK](https://github.com/nltk/nltk)'s [Punkt Sentence Tokenizer](http://www.nltk.org/_modules/nltk/tokenize/punkt.html) to disambiguate sentence boundaries.
+HTMLST breaks down HTML documents into paragraph-like sections by taking into account the [HTML5 Specification](https://html.spec.whatwg.org/multipage/) and web developers' typical usage of HTML tags and tokenizes the sentences in these sections using [NLTK](https://github.com/nltk/nltk)'s [Punkt Sentence Tokenizer](http://www.nltk.org/_modules/nltk/tokenize/punkt.html) to disambiguate sentence boundaries.
 
 ## Example:
 `HTMLSentenceTokenizer` can parse the following HTML in one line.
