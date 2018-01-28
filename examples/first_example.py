@@ -1,4 +1,4 @@
-from src.HTMLSentenceTokenizer import HTMLSentenceTokenizer
+from htmlst.HTMLSentenceTokenizer import HTMLSentenceTokenizer
 
 example_html_one = open('example_html_one.html', 'r').read()
 

@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# editor temporary files
+*.*.sw[op]
+.idea
+*~
+
+build/
+dist/
+htmlst.egg-info/
