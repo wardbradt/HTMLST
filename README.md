@@ -29,7 +29,7 @@ HTMLST breaks down HTML documents into paragraph-like sections by taking into ac
 ```
 The following code prints out the sentences of this HTML, which is stored in `example_html_one.html`.
 ```
-from HTMLSentenceTokenizer import HTMLSentenceTokenizer
+from htmlst import HTMLSentenceTokenizer
 
 example_html_one = open('example_html_one.html', 'r').read()
 parsed_sentences = HTMLSentenceTokenizer().feed(example_html_one)
