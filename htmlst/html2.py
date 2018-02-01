@@ -1,5 +1,7 @@
 import html5lib
 from html5lib.serializer import SerializeError
+from html5lib.constants import tokenTypes
+from queue import LifoQueue
 from nltk.tokenize import sent_tokenize
 
 INLINE_ELEMENTS = {'a', 'abbr', 'acronym', 'b', 'bdi', 'bdo', 'big', 'cite', 'code', 'dfn', 'em', 'i', 'kbd',

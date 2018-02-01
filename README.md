@@ -37,4 +37,9 @@ print(parsed_sentences)
 ```
 The output is `['Hello, my name is Geronimo.', "What's yours?", 'Here is a cool picture:', "Now, isn't that nice?", "Here's a weird sentence with lots of inline tags."]`.
 
+## Issues/ To-do:
+In `HTMLSentenceTokenizer`'s `__init__` method, give each object a property which is a stack. Every time the "type" of 
+a start tag is known, push an enum object (BLOCK, INLINE, HEADER, EMPTY, SENTENCE_VOID, etc.)
+to the stack. We will not have to iterate over all of the arrays twice
 
+Write tests and more examples
